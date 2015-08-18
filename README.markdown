@@ -301,15 +301,6 @@ func reticulateSplines(spline: [Double]) -> Bool {
 }
 ```
 
-For functions with long signatures, add line breaks at appropriate points and add an extra indent on subsequent lines:
-
-```swift
-func reticulateSplines(spline: [Double], adjustmentFactor: Double,
-    translateConstant: Int, comment: String) -> Bool {
-  // reticulate code goes here
-}
-```
-
 
 ## Closure Expressions
 
@@ -533,20 +524,6 @@ let swift = "not a scripting language";
 
 **NOTE**: Swift is very different to JavaScript, where omitting semicolons is [generally considered unsafe](http://stackoverflow.com/questions/444080/do-you-recommend-using-semicolons-after-every-statement-in-javascript)
 
-## Language
-
-Use US English spelling to match Apple's API.
-
-**Preferred:**
-```swift
-let color = "red"
-```
-
-**Not Preferred:**
-```swift
-let colour = "red"
-```
-
 ## Copyright Statement
 
 The following copyright statement should be included at the top of every source
@@ -556,20 +533,6 @@ file:
     Licensed Materials - Property of IBM
     © Copyright IBM Corporation 2015. All Rights Reserved.
     */
-
-## Smiley Face
-
-Smiley faces are a very prominent style feature of the raywenderlich.com site! It is very important to have the correct smile signifying the immense amount of happiness and excitement for the coding topic. The closing square bracket `]` is used because it represents the largest smile able to be captured using ASCII art. A closing parenthesis `)` creates a half-hearted smile, and thus is not preferred.
-
-**Preferred:**
-```
-:]
-```
-
-**Not Preferred:**
-```
-:)
-```  
 
 
 ## Credits
